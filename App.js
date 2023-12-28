@@ -35,7 +35,7 @@ export default function App() {
         <TextInput
           style={styles.inputText}
           placeholder="Password"
-          placeholderTextColor="#000000"
+          placeholderTextColor="#003f5c"
           secureTextEntry={true}
           onChangeText={(text) => setPassword(text)}
         />
@@ -100,9 +100,9 @@ const styles = StyleSheet.create({
     marginBottom: 40,
   },
   inputView: {
-    width: "80%",
+    width: "90%",
     backgroundColor: "#d3d3d3",
-    borderRadius: 25,
+    borderRadius: 5,
     height: 50,
     marginBottom: 20,
     justifyContent: "center",
@@ -111,11 +111,12 @@ const styles = StyleSheet.create({
   inputText: {
     height: 50,
     color: "#003f5c",
+    fontWeight: "bold",
   },
   loginBtn: {
-    width: "80%",
+    width: "60%",
     backgroundColor: "#fb5b5a",
-    borderRadius: 25,
+    borderRadius: 10,
     height: 50,
     alignItems: "center",
     justifyContent: "center",
@@ -123,7 +124,7 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   loginText: {
-    color: "black",
+    color: "white",
     fontWeight: "bold",
   },
   registerText: {
